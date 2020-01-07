@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>new salon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ 
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #D19898;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #91918E;
+  padding: 20px;
+}
+
+.text {
+   padding: 20px;
+
+}
+
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #D19898;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><i>Herani</i></h1>
+  <h1><i>Hair & Beauty Salon</i></h1>
+</div>
+
+<div class="navbar">
+  <a href="salon.html">HOME</a>
+  <a href="book.html">BOOK NOW</a>
+  <a href="about.html">ABOUT</a>
+  <a href="services.html">SERVICES</a>
+  <a href="contact.html">CONTACT</a>
+  <a href="login.html" class="right">LOGIN</a>
+</div>
+
+<div class="main">
+  <!--<div class="main">
+    <h2>Hair & Beauty Salon</h2>
+    <h5>We make hair beautiful again.</h5>
+    <img src="black.png" style=" width:100%; height:500px;">
+  -->
+
+ <div class="w3-display-container w3-container">
+    <img src="black.png" alt="" style="width:100%;" height="600" align="right">
+    <div class="w3-display-topcenter w3-text-white" style="padding:24px 48px">
+      <div class="Book">
+      <h2 class="w3-hide-small">We make hair beautiful again.</h2>
+      <p><a href="book.html" class="w3-button w3-black w3-padding-large w3-large">BOOK NOW</a></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class = "text">
+    
+    <p>We are focused on providing greate services with the highhest levels of customer satisfaction - we will do everything we can to meet your expectations.</p>
+    <br>
+    
+    
+    <h2>TITLE HEADING</h2>
+    
+    <img src="tt.jpg"style="width:100%;" height="200" align="right">
+   
+    <p>We're sure you'll be happy once we finish with your service.</p>
+    <p><a href="services.html" class="w3-button w3-black w3-padding-large w3-large">View services</a></p>
+  </div>
+
+
+<div class="footer">
+  <h5>Copyright@2020</h5>
+</div>
+
+</body>
+</html>
